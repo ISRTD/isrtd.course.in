@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ISRTD Course - MS PowerPoint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+
+</head>
+
+<body background="bg.jpg">
+
+
+
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#classes">Portal:</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#classes" onclick="allClass()">Classes</a></li>
+          <li><a href="#quizzes" onclick="classQuiz()">Quizzes</a></li>
+          <li><a href="#profile" onclick="profile()">Profile</a></li>
+          <li><a href="#logout" onclick="logOut()">Logout</a></li>
+          </ul>
+          <div id="clock">00:00:00</div>
+      </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+    </div>
+
+  </nav>
+
+  <section href="#classes" id="classes"><br>
+    <center>
+      <img  id="study" src="https://www.jotform.com/uploads/isrtdcompany/form_files/231158775903462_mainPWAIcon.6449eb8493bb2.png">
+    <h2>Welcome, <i> Mrs Rekha </i></h2>
+   </center>
+   <hr>
+    <h4 id="cls">Monday 22, 2023 - 8:00 PM - 9:00 PM</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C1: Basic of PowerPoint</button><br><br> <hr>
+    <h4 id="cls">Tuesday 23, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C2: Using Designer and Theme</button><br><br> <hr>
+    <h4 id="cls">Wednesday 24, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C3: Morphing and its tricks</button><br><br> <hr>
+    <h4 id="cls">Thursday 25, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C4: Slides</button><br><br> <hr>
+    <h4 id="cls">Friday 26, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-warning" onclick="playCls()"><b>Capstone C5:</b> Shortcuts and Hotkeys of PowerPoint</button><br><br> <hr>
+    <h4 id="cls">Saturday 27, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C6: 2D & 3D Shapes</button><br><br> <hr>
+    <h4 id="cls">Sunday 28, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C7: Draw and Insert Tabs</button><br><br> <hr>
+    <h4 id="cls">Monday 29, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C8: Animations</button><br><br> <hr>
+    <h4 id="cls">Tuesday 30, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C9: Transitions</button><br><br> <hr>
+    <h4 id="cls">Wednesday 31, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-warning" onclick="playCls()"><b>Capstone C10:</b> SlideShow and Recording a PPT</button><br><br> <hr>
+    <h4 id="cls">Thursday 1, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C11: FMath & Add-Ins</button><br><br> <hr>
+    <h4 id="cls">Friday 2, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C12: Learning about File tab & Print</button><br><br> <hr>
+    <h4 id="cls">Saturday 3, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C13: Export tab & Account, Feedback, Options</button><br><br> <hr>
+    <h4 id="cls">Sunday 4, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-info" onclick="playCls()">C14: Info Tab and Comparision between save and save as</button><br><br> <hr>
+    <h4 id="cls">Monday 5, 2023 - N/A</h4>
+    <button id="button1" class="btn btn-danger" onclick="playCls()"><b>Capstone C15:</b> Designing a professional PPT <b>(Exam)</b></button><br><br> <hr>
+  <br>
+
+   <center><button id="composeButton" class="btn btn-primary" onclick="openGmailAndCompose()">Want to reschedule class? Compose an email to our service by clicking on this button!</button></center>
+   <h2 id="question">What happens if we skip class?</h2>
+   <h2 id="question">If you skip your class by mistake, system will reschedule to the next day!</h2>
+   <br><br><br>
+  </section>
+
+
+  
+  <div class="copy_right_footer" id="footer">
+    ISRTD Space Company
+  </div>
+  
+ 
+</body>
+</html>
+

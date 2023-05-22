@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ISRTD Course - MS PowerPoint Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+
+</head>
+
+<body background="bg2.jfif">
+
+
+
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#classes">Portal:</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#classes" onclick="allClass()">Classes</a></li>
+          <li><a href="#quizzes" onclick="classQuiz()">Quizzes</a></li>
+          <li><a href="#profile" onclick="profile()">Profile</a></li>
+          <li><a href="#logout" onclick="logOut()">Logout</a></li>
+          <li><a href="#report" onclick="reportCard()">Report Card</a></li>
+
+          </ul>
+          <div id="clock">00:00:00</div>
+      </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+    </div>
+
+  </nav>
+
+  <section href="#profile" id="profile">
+    <section id="profile1">
+         <h3 id="greeting"></h3>
+         <h4>You are currenty having the <u>White Hat</u> and you are <b>05 classes</b> away from getting <u>Silver hat</u></h4>
+          <script>
+          // Get the current time
+          var time = new Date().getHours();
+    
+          // Define the greetings based on time
+          var greeting = "";
+          if (time >= 5 && time < 12) {
+            greeting = "Good morning! Mrs. Rekha";
+          } else if (time >= 12 && time < 18) {
+            greeting = "Good afternoon!  Mrs. Rekha";
+          } else if (time >= 18 && time < 22) {
+            greeting = "Good evening! Mrs. Rekha";
+          } else {
+            greeting = "Good night!  Mrs. Rekha";
+          }
+    
+          // Display the greeting
+          document.getElementById("greeting").innerHTML = greeting;
+        </script>
+    </section>
+    <img src="White-Hat.png" id="hat">
+    <h3>Name: Mrs. Rekha Kadam</h3>
+    <h4>Course enrolled: MS PowerPoint</h4>
+    <h4>Pending classes: 15</h4>
+    <button onclick="classQuiz()" class="btn btn-primary">Quizzes: 0</button><br><br>
+    <button onclick="cert()" class="btn btn-primary">Certificates: 2</button><hr>
+    <button onclick="examPage()" class="btn btn-info" id="exam">Exam Page</button><br><br>
+    <button onclick="examResult()" class="btn btn-info" id="exam">Exam Results - N.A.</button>
+    <p id="para">Your Exam will be conducted on <b>05th Monday, 2023</b>. Wish you a very good luck! <i>"Focus is the one most important thing to achieve knowledge"</i></p>
+    <hr>
+    <h3>FAQ's</h3>
+    <h4>What are Capstone Classes?</h4>
+    <h5>Active recall (multiple revisions) improves long-term retention by 200%. Store 2.5 PETABYTES of data – that’s 2,500,000 GBs, or 300 years worth of TV as long-term memory.</h5>
+    <h4>What do I get on finishing a Capstone Class?</h4>
+    <h5>Once you submit only the Capstone class project, you will have a new hat and a new certificate.</h5>
+<hr>
+<hr>
+
+  <div class="copy_right_footer" id="footer">
+    Developed by - ISRTD
+  </div>
+  </section>

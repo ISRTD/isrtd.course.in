@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ISRTD Course - MS PowerPoint Certificate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+
+</head>
+
+<body background="bg1.png">
+
+
+
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#classes">Portal:</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#classes" onclick="allClass()">Classes</a></li>
+          <li><a href="#quizzes" onclick="classQuiz()">Quizzes</a></li>
+          <li><a href="#profile" onclick="profile()">Profile</a></li>
+          <li><a href="#logout" onclick="logOut()">Logout</a></li>
+          <li><a href="#report" onclick="reportCard()">Report Card</a></li>
+
+          </ul>
+          <div id="clock">00:00:00</div>
+      </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+    </div>
+
+  </nav>
+
+  <section href="#" id="cert">
+    <center>
+        <h1>Certificates</h1> 
+        <h3>You have (2) Certificates</h3> 
+        
+        <img src="joining_cert.jpg" id="jc" <button onclick="openCert1()" class="btn btn-warning"></button>
+        <h3 id="nameofcert"><b>Joining Certificate</b></h3>
+        <h3 id="nameofcert">Date: 15th May 2023</h3>
+        <hr>
+        <img src="course_cert.jpg" id="jc" <button onclick="openCert2()" class="btn btn-warning"></button>
+        <h3 id="nameofcert"><b>Course Open Certificate</b></h3>
+        <h3 id="nameofcert">Date: 22nd May 2023</h3>
+    </center>
+
+  </section>

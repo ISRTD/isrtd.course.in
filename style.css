@@ -1,0 +1,73 @@
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    line-height: 3;
+    text-align: center;
+ }  
+
+ #study{
+   width:50px;
+   height: 50px;
+ }
+
+ #QUIZH4{
+  color: darkblue;
+  background-color: aqua;
+  border-radius: 50px; 
+ }
+
+ #QUIZH4:hover{
+  color: aqua;
+  background-color: darkblue;
+  border-radius: 0px; 
+ }
+
+ #quizzes{
+  background-color: rgb(203, 209, 218);
+ }
+
+ #profile{
+  color: rgb(246, 247, 247);
+ }
+
+ #jc{
+  width: 300px;
+  height: 150px;
+ }
+
+ #para{
+  background-color: black;
+ }
+ #hat{
+  width: 100px;
+  height: 50px;
+ }
+ 
+#clock{
+  float: right;
+  color:aliceblue;
+}
+
+body{
+  background-size: cover;
+}
+
+#cls{
+  color: white;
+}
+h2{
+  color:floralwhite;
+  background-color: black;
+}
+
+#nameofcert{
+  background-color: aqua;
+}
+
+#question{
+  text-align: center;
+  font-size: 25px;
+}
